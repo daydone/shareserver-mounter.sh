@@ -1,0 +1,36 @@
+Script Title
+This is a shell script that mounts a Windows share server using CIFS or WebDAV.
+
+Getting Started
+These instructions will help you get the script up and running on your local machine.
+
+Prerequisites
+You need to have the following software installed:
+Bash shell
+CIFS or WebDAV client, depending on your choice
+
+Usage
+Clone or download the script to your local machine.
+Open a terminal window and navigate to the directory where the script is saved.
+Run the script using the following command: ./scriptname.sh.
+Follow the prompts to enter the necessary information, such as the username and server address.
+Choose whether to run the script with WebDAV or not.
+The script will mount the share and notify you if the mount was successful.
+Examples
+bash
+Copy code
+$ ./mount.sh
+Please specify the username: johndoe
+Please specify the server address: //192.168.0.2/share
+Do you want to run with WebDAV? [y/n]: y
+Mounting //192.168.0.2/share to /shareserver...
+Mount successful!
+
+Contributing
+If you find any issues with the script or have suggestions for improvements, please submit a pull request or open an issue.
+
+Authors
+The script was created by @daydone.
+
+License
+This project is not liscensed and is intended for my personal use but you are free to use it.
