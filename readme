@@ -1,3 +1,5 @@
+Why I have this here:
+I have this script here because I had to help a group of engineers in an org I worked at be able to consistently and correctly mount their personal drives to save data and pull images to remote hosts and we had an issue with typos so this is the user friendly version.
 Script Title
 This is a shell script that mounts a Windows share server using CIFS or WebDAV.
 
